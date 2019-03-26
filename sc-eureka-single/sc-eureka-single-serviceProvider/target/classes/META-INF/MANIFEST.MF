@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: sc-eureka-single-serviceProvider
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.shencome.client.es
+Build-Jdk: 1.7.0_67
+Built-By: 16040985
+Created-By: Maven Integration for Eclipse
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/sc-eureka-single-serviceProvider
+
