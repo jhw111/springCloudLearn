@@ -2,7 +2,8 @@
 sc-eureka-single             :单机版eureka服务示例，包含注册中心、服务注册、服务调用
 sc-eureka-cluster            :多机集群版eureka服务示例，包含注册中心、服务注册、服务调用
 sc-eureka-single-security    :具备权限认证的单机版eureka服务示例，包含注册中心、服务注册、服务调用
-
+sc-gateway                   :网关示例
+                             
 一、集群条件：
 1.不能用localhost比如： 
 eureka.client.serviceUrl.defaultZone=http://peer1:8761/eureka/
