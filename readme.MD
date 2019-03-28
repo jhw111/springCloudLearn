@@ -30,6 +30,6 @@ eureka.instance.lease-expiration-duration-in-seconds = 15
 3.服务调用方(非必须)
 #eureka client刷新本地缓存时间.默认30s
 eureka.client.registryFetchIntervalSeconds=5
-
+    
 http://10.27.137.35:8761/
 http://localhost:10000/SERVICEPROVIDER/hello?name=%22111%22&token=111
