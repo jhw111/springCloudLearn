@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.shencome.base.server</groupId>
-	<artifactId>sc-gateway-route</artifactId>
+	<artifactId>sc-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>sc-gateway-route</name>
-	<description>网关-路由</description>
+	<name>sc-config-server</name>
+	<description>配置中心-服务端</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -28,25 +28,13 @@
 	<dependencies>
 		<dependency>
 		    <groupId>org.springframework.cloud</groupId>
-		    <artifactId>spring-cloud-starter-gateway</artifactId>
-		    </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
-
+		    <artifactId>spring-cloud-config-server</artifactId>
+		</dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        
-        <!-- 限流(令牌桶算法实现) -->
-		<dependency>
-		    <groupId>com.github.vladimir-bukhtoyarov</groupId>
-		    <artifactId>bucket4j-core</artifactId>
-		    <version>4.0.0</version>
-		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
